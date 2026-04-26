@@ -1,4 +1,4 @@
-## 📸 Görseli 1
+## 📸 Görsel 1
 ![Ekran](assets/Images/sim_1.png)
 ## 📸 Grafik 1
 ![Ekran](assets/Images/grafik_1.png)
@@ -6,7 +6,7 @@
 [Demo Videoyu İzle](assets/Videos/sim_vid_1.mp4)
 
 ##----------------------------------------------
-## 📸 Görseli 2
+## 📸 Görsel 2
 ![Ekran](assets/Images/sim_2.png)
 ## 📸 Grafik 2
 ![Ekran](assets/Images/grafik_2.png)
@@ -14,7 +14,7 @@
 [Demo Videoyu İzle](assets/Videos/sim_vid_2.mp4)
 
 ##----------------------------------------------
-## 📸 Görseli 3
+## 📸 Görsel 3
 ![Ekran](assets/Images/sim_3.png)
 ## 📸 Grafik 3
 ![Ekran](assets/Images/grafik_3.png)
@@ -22,7 +22,7 @@
 [Demo Videoyu İzle](assets/Videos/sim_vid_3.mp4)
 
 ##----------------------------------------------
-## 📸 Görseli 4
+## 📸 Görsel 4
 ![Ekran](assets/Images/sim_4.png)
 ## 📸 Grafik 4
 ![Ekran](assets/Images/grafik_4.png)
