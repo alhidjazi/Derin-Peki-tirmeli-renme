@@ -27,16 +27,16 @@ Modern lojistik ve dağıtım problemleri genellikle "Gezgin Satıcı Problemi" 
 
 ```mermaid
 flowchart LR
-    Start[Simülasyon Başlangıcı] --> Reset[Ortamı Sıfırla]
-    Reset --> HedefKontrol{Visit Edilmemiş Hedef Var mı?}
-    HedefKontrol -->|Evet| Planla[Rota Planlama (A*)]
-    HedefKontrol -->|Hayır| Bitir[Epizodu Bitir]
-    Planla --> Hareket[Güncellemeleri Yap (adım adım)]
-    Hareket --> Kontrol{Hedefe Varıldı mı?}
-    Kontrol -->|Hayır| Hareket
-    Kontrol -->|Evet| Teslimat[Teslimat İşareti ve Puan Hesaplama]
+    Start["Simülasyon Başlangıcı"] --> Reset["Ortamı Sıfırla"]
+    Reset --> HedefKontrol{"Visit Edilmemiş Hedef Var mı?"}
+    HedefKontrol -->|"Evet"| Planla["Rota Planlama (A-Star)"]
+    HedefKontrol -->|"Hayır"| Bitir["Epizodu Bitir"]
+    Planla --> Hareket["Güncellemeleri Yap (adım adım)"]
+    Hareket --> Kontrol{"Hedefe Varıldı mı?"}
+    Kontrol -->|"Hayır"| Hareket
+    Kontrol -->|"Evet"| Teslimat["Teslimat İşareti ve Puan Hesaplama"]
     Teslimat --> HedefKontrol
-    Bitir --> Grafik[Giriş: Sonuç Grafiği Göster]
+    Bitir --> Grafik["Sonuç Grafiği Göster"]
 ```
 
 *Şekil: Sistemin ana döngüsünün akış diyagramı. Her döngüde hedef kontrolü, rota planlama ve hareket/güncelleme adımları takip edilir.*
